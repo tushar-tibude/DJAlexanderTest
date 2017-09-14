@@ -7,7 +7,7 @@
 
 4) Application will start on "http://localhost:4200"
 
-5)For login use credentials
+5) For login use credentials
    email": "tushar@tt.com"
    password": "123"
 
