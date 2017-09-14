@@ -1,11 +1,17 @@
 # DjAlexander
 1) please make sure you have nodejs and npm is installed on your machine.
-2) Go to root folder and run command "npm install"    (where package.json is present) 
-3) Once it is installed Run  "ng serve"  
-4) Application will start on "http://localhost:4200"
-5)For login use credenctials
- email
 
+2) Go to root folder and run command "npm install"    (where package.json is present) 
+
+3) Once it is installed Run  "ng serve"  
+
+4) Application will start on "http://localhost:4200"
+
+5)For login use credentials
+   email": "tushar@tt.com"
+   password": "123"
+
+   
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
 
 ## Development server
