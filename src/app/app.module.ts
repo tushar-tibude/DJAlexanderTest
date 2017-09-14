@@ -34,6 +34,18 @@ import { RouterModule }   from '@angular/router';
       {
         path: 'aboutus',
         component: AboutUsComponent
+      },
+      {
+        path: 'aboutus/profile',
+        component: AboutUsComponent
+      },
+      {
+        path: 'aboutus/team',
+        component: AboutUsComponent
+      },
+      {
+        path: 'aboutus/contact',
+        component: AboutUsComponent
       }
     ])
   ],

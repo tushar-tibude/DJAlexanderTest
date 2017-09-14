@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,AfterViewChecked } from '@angular/core';
 import { Router,NavigationEnd  }   from '@angular/router';
 import {ActivatedRoute} from '@angular/router';
 @Component({
@@ -6,18 +6,17 @@ import {ActivatedRoute} from '@angular/router';
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.css']
 })
-export class AboutUsComponent implements OnInit {
+export class AboutUsComponent implements AfterViewChecked  {
   public getRoute;
   public router;
   constructor(_router: Router,private route:ActivatedRoute) {
     this.getRoute = route;
-    this.router = _router;
-    console.log(this.router.url);
   }
 
-  ngOnInit() {
-
-  }
+  ngAfterViewChecked() {
+      let ele=document.getElementById(this.getRoute.snapshot.url[1].path)
+      ele.scrollIntoView(false);
+      }
 
 }
 
