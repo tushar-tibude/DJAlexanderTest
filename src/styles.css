@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+.form-group {
+  text-align: justify;
+}
+
+.ng-valid[required], .ng-valid.required {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.text-help {
+  position: absolute;
+  top: 30px;
+  right: 2px;
+  line-height: 2.125rem;
+  color: #d0021b;
+  margin-top: .125rem;
+  padding-left: .625rem;
+  padding-right: .625rem;
+  background-color: #fff;
+}
+
+.text {
+  text-align: -webkit-auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.content-div {
+  padding: 30px;
+  border: 1px solid gray;
+}
